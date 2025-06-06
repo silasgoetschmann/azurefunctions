@@ -1,5 +1,4 @@
-
-const { app } = require('@azure/functions');
+const { app, output } = require('@azure/functions');
 
 app.http('postItems', {
     methods: ['POST'],
